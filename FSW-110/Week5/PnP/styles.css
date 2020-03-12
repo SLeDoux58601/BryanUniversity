@@ -1,0 +1,15 @@
+body{
+    padding: 20px;
+    display: flex;
+    text-align: right;
+}
+
+#person{
+    padding: 10px;
+    background-color: burlywood;
+}
+
+#submit{
+    height: 30px;
+    background-color: bisque;
+}

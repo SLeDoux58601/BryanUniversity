@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #777;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    background-color: #777;
+    height: 500px;
+}
+
+.title {
+    padding-top: 150px;
+    color: white;
+    font-size: 80px;
+}
+
+.blogTheme {
+    color: white;
+}
+
+.container {
+    margin: auto;
+    width: 700px;
+    text-align: center;
+    border-bottom: 1px solid #cecece;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 60px;
+}

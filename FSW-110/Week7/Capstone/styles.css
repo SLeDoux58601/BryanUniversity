@@ -1,0 +1,80 @@
+html {
+    text-align: center;
+    background-color: burlywood;
+}
+
+body {
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 50px;
+    text-decoration-style: wavy;
+    color: rgb(1, 17, 17)
+}
+
+input {
+    cursor: pointer;
+    text-align: center;
+    padding-top: 30px;
+    width: 50%;
+    height: 60px;
+    font-size: 20px;
+    border: solid 1px black
+}
+
+ul li:nth-child(odd) {
+    cursor: pointer;
+    background-color: rgb(139, 198, 253);
+    border: solid 1px black
+}
+
+ul li:nth-child(even) {
+    cursor: pointer;
+    background-color: rgb(153, 152, 255);
+}
+
+input:focus {
+    outline: none;
+}
+
+@media only screen and (min-width: 750px){
+    body
+     {
+        margin: 0 auto;
+    } 
+    html {
+        background-image: url(https://images.assetsdelivery.com/compings_v2/amenic181/amenic1811410/amenic181141000117.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    li {
+        text-align: center;
+        font-size: 40px;
+        list-style: none;
+        margin: 10px;
+    }
+
+    li:hover {
+        text-decoration: line-through;
+        text-decoration-color: red;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    html {
+        background-image:url(https://img.etimg.com/thumb/msid-66951054,width-643,imgsize-920116,resizemode-4/sunrise.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    li {
+        text-align: center;
+        font-size: 30px;
+        list-style: none;
+    }
+
+    li:hover {
+        text-decoration: line-through;
+        text-decoration-color: blue;
+    }
+}

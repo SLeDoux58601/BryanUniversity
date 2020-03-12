@@ -1,0 +1,154 @@
+.navbar {
+    background-color: #f1f1f1; 
+    margin-right: 5px;
+}
+
+.header {
+    color: orangered;
+    text-align: right;
+    background-image: url("http://metalremnants.com/wp-content/uploads/2013/10/DIAMOND-PLATE2.jpg");
+    background-image: linear-gradient(darkgrey);
+}
+
+.main-content {
+    background-color: darkgrey;
+}
+
+.footer {
+    text-align: right;
+    background-color: rgb(119, 173, 173);
+    color: beige
+}
+
+ .navbar > ul  {
+     color: black;
+     list-style-type: none;    
+ }
+
+ li {
+     padding: 5px;
+ }
+
+.list-1:hover {
+     background-color: #555;
+     color: white;
+ }
+
+@media only screen and (max-width: 750px){
+    .main-content {
+        background-color: steelblue;
+        grid-column: 1 / 13;
+        grid-row: 5 / 10;
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    .navbar {
+        background-color: lightslategray;
+        color: aliceblue;
+        grid-column: 1 / 13;
+        grid-row: 3 / 5;
+    }
+    
+    .navbar > ul {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .header {
+        grid-column: 1 / 13;
+        grid-row: 1 / 3;
+    }
+
+    .footer {
+        grid-column: 1 / 13;
+        grid-row: 10 / 13;
+        text-align: right;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat (12, 1fr);
+        grid-template-rows: repeat (12, 1fr);
+    }
+}
+
+@media only screen and (min-width: 750px){
+    .main-content {
+        background-color: silver;
+        grid-column: 4 / 13;
+        grid-row: 4 / 10;
+    }
+
+    .navbar {
+        background-color: lightslategray;
+        color: aliceblue;
+        grid-column: 1 / 4;
+        grid-row: 1 / 13;
+        border-radius: 5px;
+    }
+
+    .header {
+        grid-column: 4 / 13;
+        grid-row: 1 / 4;
+    }
+
+    .footer {
+        grid-column: 1 / 13;
+        grid-row: 10 / 13;
+        text-align: right;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat (12, 1fr);
+        grid-template-rows: repeat (12, 1fr);
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat (12, 1fr);
+        grid-template-rows: repeat (12, 1fr);
+    }
+    
+    .navbar {
+        grid-template-columns: 1 / 13;
+        grid-template-rows: 1 / 3;
+    }
+    .navbar > ul {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        text-decoration: none;
+    }
+
+    .header {
+        grid-template-columns: 1 / 13;
+        grid-template-rows: 3 / 5;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header > h2 {
+        font-size: 15px;
+    }
+    .main-content {
+        grid-template-columns: 1 / 13;
+        grid-template-rows: 5 / 10;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .footer {
+        grid-template-columns: 1 / 13;
+        grid-template-rows: 10 / 13;
+        display: flex;
+        justify-content: stretch;
+    }
+}

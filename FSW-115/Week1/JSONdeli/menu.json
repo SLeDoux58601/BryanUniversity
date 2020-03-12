@@ -1,0 +1,69 @@
+{"menu": {
+    "drinks": [
+        {
+            "name":"Dr. Pepper",
+            "size": 20,
+            "calories": 160,
+            "description": "A refreshing, carbonated beverage"
+        },
+        {
+            "name":"Raspberry Tea",
+            "size": 20,
+            "calories": 200,
+            "description": "A tea with raspberry flavor"
+        }
+    ],
+    "appetizers": [
+        {
+            "name":"cheesey bread",
+            "ingredients":["pizza dough", "pizza cheese", "50/50 cheese"],
+            "description":"pizza dough stuffed with cheese and topped with a mix of pizza cheese and chedder cheese cut into 8 pieces and served with your choice of dipping suace."
+        },
+        {
+            "name":"Garlic Parmasan Bread Bites",
+            "ingredients":["Portabella Mushrooms", "scallops", "crab", "shrimp"],
+            "description":"6 Portabella Mushrooms stuffed and baked with an assortment of seafood. Served with lemons"
+        },
+        {
+            "name":"Wings",
+            "ingredients":["bone in chicken", "hot Buffalo Sauce","BBQ sauce", "Mild Buffalo sauce","brading"],
+            "description":"Your choice of bone in or boneless chicken. and a pick from BBQ, Hot or Mild Sauce. with a side of a dipping sauce of your choice."
+        }   
+    ], 
+    "cold sandwiches": [
+        {
+            "name":"Cuban",
+            "ingredients":["Cuban bread", "ham", "roasted pork", "swiss cheese", "pickles", "mustard"],
+            "description":"A classic Cuban Sub sandwich with and assortment of Cuban meats"
+        },
+        {
+            "name":"Classic Italian Sub",
+            "ingredients":["Italian Herb bread", "salami", "mortadella", "capicolla", "ham", "provalone"],
+            "description":"A classic Italian Sub with an assortment of Italian meats"
+        }
+    ],
+    "hot sandwiches": [
+        {
+            "name":"Meatball Sub",
+            "ingredients":["Italian Herb bread", "meatballs", "marinara", "american cheese", "green pepper"],
+            "description":"A savory, toasted meatball and marinara sub"
+        },
+        {
+            "name":"Philly Cheesesteak",
+            "ingredients":["Chibotta bread", "butter", "shredded beef", "provalone", "green pepper", "onions", "mushrooms"],
+            "description":"The favorite Philly Cheesesteak on chibotta bread witha buttered outside, shredded philly meat on the inside cheese on top and bottom melted to perfrection, stuffed with greenpeppers,onions, and mushrooms and baked."
+        }
+    ],
+    "desserts": [
+        {
+            "name":"cheesecake",
+            "ingredients":["creamcheese", "butter", "vanilla", "eggs", "graham cracker"],
+            "description":"Crushed graham cracker with thick layer of creamcheese, eggs, and sugar"
+        },
+        {
+            "name":"cinnoman twist",
+            "ingredients":["buttered dough", "cinnamon", "sugar", "icing"],
+            "description":"Warm baked buttery dough baked in a twist and covered with a cinnamon sugar topping and served with a side of icing to dip the twist in."
+        }
+    ]
+}}

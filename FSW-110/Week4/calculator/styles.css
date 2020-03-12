@@ -1,0 +1,14 @@
+body, div {
+    padding: 25px;
+    background-color: rgb(225, 155, 247);
+}
+
+button {
+    background-color: rgb(87, 248, 221);
+    border: 2% solid rgb(3, 3, 3);
+}
+
+div,result {
+    text-align: center; 
+    text-decoration: darkblue;
+}

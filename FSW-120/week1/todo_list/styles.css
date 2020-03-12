@@ -1,0 +1,17 @@
+body {
+    background-color:lightcyan;
+}
+
+.todo {
+    background-color: lightgray;
+    width: fit-content;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    width: 50px;
+}

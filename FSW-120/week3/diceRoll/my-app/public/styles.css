@@ -1,0 +1,24 @@
+body {
+    background-color: lightcoral;
+}
+
+.container {
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+h1 {
+    border: solid 1px black;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    ;
+}
+
+.button {
+    background-color: lightseagreen;
+    width: 100px;
+}

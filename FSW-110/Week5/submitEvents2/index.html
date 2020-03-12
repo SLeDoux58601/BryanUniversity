@@ -1,0 +1,38 @@
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form class="container" name="passenger">
+        First Name: <input type="text" name="firstName">
+        <br>
+        Last Name: <input type="text" name="lastName">
+        <br>
+        Age: <input type="number" name="age">
+        <br>
+        
+        Gender:
+        <br>
+        Male <input type="radio" name="gender" value="Male">
+        Female <input type="radio" name="gender" value="Female">
+        <br>
+
+        Destination <select name="city">
+            <option value="Seattle">Seattle</option>
+            <option value="Charlotte">Charlotte</option>
+            <option value="Nashville">Nashville</option>
+        </select>
+
+        <br>
+        Dietary Restrictions(check all that apply) 
+        <br>
+        Vegetartian: <input type="checkbox" value="Vegetartian" name="restrictions">
+        Kosher: <input type="checkbox" value="Kosher" name="restrictions">
+        Lactose Free: <input type="checkbox" value="Lactose Free" name="restrictions">
+        Gluten Free: <input type="checkbox" value="Gluten Free" name="restrictions">
+        <br>
+        <button>Submit</button>
+    </form>
+    <script src="submit.js"></script>
+</body>
+</html>

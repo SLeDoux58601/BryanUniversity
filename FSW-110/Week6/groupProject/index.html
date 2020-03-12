@@ -1,0 +1,74 @@
+
+<html>
+  <head>
+    <title>Mario Pest Control</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body background="http://getwallpapers.com/wallpaper/full/0/5/e/951553-mario-backgrounds-1920x1080-mobile.jpg">
+    <header>
+      <h1>Mario Pest Control</h1>
+    </header>
+    <main>
+      <form name="baddieCalc" class="container">
+        <ul>
+          <div>
+            <li class="test1">
+              <img
+                src="https://images-na.ssl-images-amazon.com/images/I/61Eiyw-AnDL._SY500_.jpg"
+                alt="Goomba"
+                class="baddieimg responsive"
+              />
+              <br />
+              <input
+                type="number"
+                name="goombas"
+                placeholder="Goombas: 5 Coins/ea"
+              />
+            </li>
+            <li class="test2">
+              <img
+                src="https://www.pngitem.com/pimgs/m/18-180926_bob-omb-png-super-marios-bob-omb-transparent.png"
+                alt="bobombs"
+                class="baddieimg responsive"
+              />
+
+              <br />
+              <input
+                type="number"
+                name="bobombs"
+                placeholder="Bob-ombs: 7 Coins/ea"
+              />
+            </li>
+            <li class="test3">
+              <img
+                src="https://www.mariowiki.com/images/thumb/6/63/CheepCheepNSMBU.png/1200px-CheepCheepNSMBU.png"
+                alt="Cheep-cheeps"
+                class="baddieimg responsive"
+              />
+              <br />
+              <input
+                type="number"
+                name="cheepCheeps"
+                placeholder="Cheep-Cheeps 11 Coins/ea"
+              />
+            </li>
+          </div>
+        </ul>
+        <button>Submit</button>
+      </form>
+      <div class="totalcenter">
+        <p>Goombas captured: <span id="goombaTotal"></span></p>
+        <p>Bob-ombs captured: <span id="bobombTotal"></span></p>
+        <p>Cheep-cheeps captured: <span id="cheepCheepTotal"></span></p>
+        <p>Total Earned: <span id="total"></span></p>
+      </div>
+    </main>
+    <footer class="totalcenter">
+      <hr class="full" />
+      <p>E-mail: JumpMan81@yahoo.com</p>
+      <p>Visit us at: mariomario.com</p>
+      <p>Address: MarioWorld P.O. Box 564 </p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
