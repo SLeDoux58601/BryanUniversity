@@ -1,0 +1,19 @@
+body {
+    background-color: antiquewhite;
+}
+
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hello {
+    font-size: 50px;
+}
+
+.aboutParagraph {
+    display: flex;
+    align-items: right;
+    width: 250px;
+}
