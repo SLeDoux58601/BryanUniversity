@@ -1,0 +1,12 @@
+body {
+    background-color: bisque;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+}
