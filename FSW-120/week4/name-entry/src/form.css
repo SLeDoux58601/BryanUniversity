@@ -1,0 +1,65 @@
+.container {
+  width: 800px;
+  height: 400px;
+  text-align: center;
+  border: solid 3px black;
+  border-radius: 2%;
+  margin-left: 25%;
+  
+}
+
+.input {
+  width: 230px;
+  margin: 15px;
+  border: solid 2px black;
+}
+
+.textArea {
+  height: 150px;
+  width: 489px;
+  border: solid 2px black;
+  margin: auto;
+}
+
+.button {
+  border: solid 2px black;
+  
+}
+
+.resultContainer {
+  text-align: center;
+  border: solid 2px gray;
+  border-radius: 2%;
+  width: 800px;
+  height: 450px;
+  margin-left: 25%;
+}
+
+.badge {
+  text-align: left;
+  background-color: #555555;
+  border-radius: 5px;
+  margin-top: 0px;
+  padding-left: 10px;
+  color: white;
+}
+
+.result {
+  margin: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.textResult {
+  border: solid 3px black;
+  width: 500px;
+  height: 200px;
+  margin: auto;
+}
