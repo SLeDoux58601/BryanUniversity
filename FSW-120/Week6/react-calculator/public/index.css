@@ -1,0 +1,25 @@
+body {
+    background-color: sandybrown;
+}
+
+.home {
+    text-align: center;
+}
+ 
+.form {
+    padding: 20px;
+    text-align: center;
+}
+
+.result {
+    text-align: center;
+}
+
+.number1 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.number2 {
+    text-align: center;
+}
