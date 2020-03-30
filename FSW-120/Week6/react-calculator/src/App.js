@@ -6,7 +6,7 @@ import Add from './Add'
 import Subtraction from './Sub'
 import Mul from './Mul'
 import Div from './Div'
-//import './App.css';
+import './App.css';
 
 function App() {
   return(

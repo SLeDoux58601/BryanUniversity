@@ -1,0 +1,28 @@
+@media only screen and (min-width: 750px){
+  body {
+      background-color: rgb(204, 0, 255);
+  }
+}
+
+@media only screen and (max-width: 750px){
+  body {
+      background-color: rgb(32, 165, 218);
+  }
+
+  .container {
+      text-align: center;
+  }
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background: #555;
+  background-color: darkmagenta;
+  padding: 7px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #333;
+}
