@@ -1,0 +1,14 @@
+.dark-theme {
+  background-color: #333333;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.light-theme {
+  background-color: whitesmoke;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
