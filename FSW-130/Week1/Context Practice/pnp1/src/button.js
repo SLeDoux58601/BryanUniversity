@@ -1,5 +1,5 @@
 import React, {Component} from "react"
-import ThemeContext from "./themeContext"
+import ThemeContext from "./ThemeContext"
 
 class Button extends Component {
     render() {

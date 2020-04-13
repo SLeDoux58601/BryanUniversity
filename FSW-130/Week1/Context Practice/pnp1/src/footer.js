@@ -1,16 +1,17 @@
-import React from 'react'
-import { ThemeContextConsumer } from './themeContext'
+import React, {Component} from 'react'
+import ThemeContext from './ThemeContext'
 
-function Footer() {
-    return (
-        <ThemeContextConsumer>
-            {context => (
-                <div className={`${context.theme}-theme`}>
-                    <p>Hope that you had fun, and come back soon for more context codes.</p>
-                </div>
-            )}
-        </ThemeContextConsumer>
-    )
+
+class Footer extends Component {
+    static contextType = ThemeContext
+    render() {
+        const theme = this.context
+        return (
+            <header className={`${theme}-theme`}>
+                <h2>{theme === "light" ? "Light" : "Dark"} Theme</h2>
+            </header>
+        )    
+    }
 }
 
-export default footer
+export default Footer

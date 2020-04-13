@@ -1,14 +1,16 @@
 import React from "react"
+import Header from "./header"
+import Button from "./button"
+import Footer from "./footer"
 
-import Header from "./Header"
-import Button from "./Button"
+
 
 function App() {
     return (
 
     <div>
       <Header>Changing themes with Context</Header>
-      <Main>switch theme from night theme to day theme. </Main>
+      {/* <Main>switch theme from night theme to day theme. </Main> */}
       <Footer>did it work?</Footer>
       <br />
       <br />
