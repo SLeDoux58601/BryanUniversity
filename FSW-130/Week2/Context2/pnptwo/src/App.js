@@ -6,7 +6,6 @@ import Header from './components/header'
 //import moviesArray from './components/moviesArray'
 
 class App extends Component {
-  /* Can access movie properties */
 
   state = {
     movie: '',
