@@ -3,9 +3,9 @@ const app = express()
 
 // 1. Endpoint (mount path)
 // 2. CallBack function 
-app.get("/player", (req, res) => {
-  res.send({name: "Rae", age: 26})
-})
+// app.get("/player", (req, res) => {
+//   res.send({name: "Rae", age: 26})
+// })
 
 const vehicles = [
     {
