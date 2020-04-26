@@ -24,7 +24,7 @@ font-family: serif;
 text-align: center;
 text-decoration-color: lightseagreen;
 }
-body{
+.body{
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(24, 27, 27)

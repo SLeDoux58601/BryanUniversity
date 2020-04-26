@@ -1,9 +1,21 @@
 import React, { Component } from 'react';
 import './App.css';
-import { startTimer, resetTimer } from './actions.js'
+import { startTimer, resetTimer } from './action.js'
 import { connect } from 'react-redux'
+// import { makeStyles } from '@material-ui/core/styles';
+// import Button from '@material-ui/core/Button';
+
+// const useStyles = makeStyles((theme) => ({
+//     root: {
+//       '& > *': {
+//         margin: theme.spacing(1),
+//       },
+//     },
+//   }));
 
 class Counter extends Component {
+
+
 
 
     start = () => {
@@ -12,8 +24,8 @@ class Counter extends Component {
     }
 
     stop = () => {
-        // this.props.dispatch(stopTimer());
         clearInterval(this.t)
+        // this.props.dispatch(stopTimer()); >> need help on this part <<
     }
 
     reset = () => {
@@ -24,7 +36,7 @@ class Counter extends Component {
         return (
             <div>
                 <h1>
-                {/* Minutes */}
+                    {/* Minutes */}
                     <span>{this.props.minutes}</span>:
                 {/* Seconds */}
                     <span>{this.props.seconds}</span>:
@@ -33,7 +45,10 @@ class Counter extends Component {
                 </h1>
                 <br />
                 
-                <button onClick={this.start}>Start</button>
+                <button  variant="contained" color="primary" onClick={this.start}>Start</button>
+                {/* <Button variant="contained">Default</Button>
+                <Button variant="contained" color="primary">
+                     Primary */}
                 <button onClick={this.stop}>Stop</button>
                 <button onClick={this.reset}>Reset</button>
 
@@ -52,4 +67,7 @@ const mapStateToProps = state => {
     };
 };
 
+// export default function ContainedButtons() {
+//     const classes = useStyles();
+  
 export default connect(mapStateToProps)(Counter);

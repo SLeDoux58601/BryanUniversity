@@ -1,1 +1,13 @@
-
+body {
+    background-color: #282c34;
+    color: white;
+    padding: 40px;
+    font-family: Arial;
+    text-align: center;
+  }
+  
+button {
+    background-color: orchid;
+    color: black;
+    border-radius: 4%;
+}
