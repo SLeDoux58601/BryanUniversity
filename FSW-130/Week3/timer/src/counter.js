@@ -69,5 +69,6 @@ const mapStateToProps = state => {
 
 // export default function ContainedButtons() {
 //     const classes = useStyles();
-  
+
 export default connect(mapStateToProps)(Counter);
+ 
