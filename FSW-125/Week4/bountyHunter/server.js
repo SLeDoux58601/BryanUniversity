@@ -68,6 +68,6 @@ app.delete("/:bountyId", (req, res) => {
 
 
 //a simple console log to let me know that my server is working
-server.listen(9000, () => {
+app.listen(9000, () => {
     console.log('now connected to port 9000')
 })
