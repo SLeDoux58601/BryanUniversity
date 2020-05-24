@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* .greeting {
+  text-align: center;
+  background-color: rgb(132, 194, 194);
+  padding-top: 10px;
+  padding-bottom: 20px;
+} */
+
+.dark-theme {
+  background-color: #333333;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.light-theme {
+  background-color: whitesmoke;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
