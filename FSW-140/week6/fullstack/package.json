@@ -1,0 +1,22 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.3",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "node-mysql2": "^1.0.0"
+  }
+}
