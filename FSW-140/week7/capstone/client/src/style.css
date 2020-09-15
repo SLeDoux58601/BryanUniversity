@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgb(149, 143, 236);
+    font-family: "Roboto", sans-serif;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+  
+  .seperation {
+    margin: 50px;
+  }
+  button {
+    box-shadow: 3px 4px 0px 0px #899599;
+    background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color: #ededed;
+    border-radius: 15px;
+    border: 1px solid #d6bcd6;
+    display: inline-block;
+    cursor: pointer;
+    color: #3a8a9e;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #e1e2ed;
+    margin-right: 8px;
+  }
+  button:hover {
+    background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color: #bab1ba;
+  }
+  button:active {
+    position: relative;
+    top: 1px;
+  }
+  .inputadjustment {
+    height: 35px;
+    margin: 5px 3px 0 5px;
+  }
+  .linkadjustment {
+    height: 35px;
+    margin: 5px 3px 0 5px;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+  .flexoutput {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container {
+    padding: 0 250px 0 250px;
+  }
+  .container > h1 {
+    text-align: center;
+    border-top: 5px solid rgb(47, 56, 109);
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: blue;
+    background-color: rgba(159, 159, 209, 0.795);
+  }
+  
+  .gridcontainer {
+    display: grid;
+    grid-template-areas:
+      "img1 img2"
+      "img3 img4";
+      padding: 50px;
+  }
+  /* mobile */
+  @media only screen and (max-width: 400px) {
+    .gridcontainer {
+      display: grid;
+      grid-template-areas:
+        "img1"
+        "img2"
+        "img3"
+        "img4";
+    }
+  }
+  
+  
+  .imgh1 {
+    text-align: center;
+    border-top: 5px solid rgb(47, 74, 109);
+  }
+  
+  .img1 {
+    grid-area: img1;
+    height: 50%;
+  }
+  .img2 {
+    grid-area: img2;
+    height: 50%;
+  }
+  .img3 {
+    grid-area: img3;
+    height: 50%;
+  }
+  .img4 {
+    grid-area: img4;
+    height: 50%;
+  }
